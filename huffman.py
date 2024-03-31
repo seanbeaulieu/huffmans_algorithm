@@ -148,7 +148,6 @@ bits_lost = unencoded_bits - encoded_bits
 compression_pct = (bits_lost / unencoded_bits) * 100
 
 decoded_text = huffman_decode(encoded_text, build_huffman_tree(build_frequency_dict(text)))
-print("Decoded Text:", decoded_text)
 print("Encoded Text:", encoded_text)
 print("Huffman Codes:", huffman_code)
 print("Bits before compression (ASCII):", unencoded_bits)

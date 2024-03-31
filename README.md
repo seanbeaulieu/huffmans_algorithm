@@ -6,7 +6,6 @@ With that being said, here's my writeup and implementation of the Huffman encode
 
 ```
 Enter text: Example text to use on my blog, one sentence only.
-Decoded Text: Example text to use on my blog, one sentence only.
 Encoded Text: 1101000001110101101100100010101001111100100000111001111100011111010010000100111011001111101100101111110111010100111101100101011101100110011100001000011100100001110111100111011001101001011101111
 Huffman Codes: {'s': '0000', 'x': '0001', 'n': '001', 'p': '01000', 'u': '01001', ',': '01010', 'y': '01011', 'o': '011', 'e': '100', 'l': '1010', 'm': '10110', 'b': '101110', '.': '101111', 't': '1100', 'E': '110100', 'a': '110101', 'g': '110110', 'c': '110111', ' ': '111'}
 Bits before compression (ASCII): 400
